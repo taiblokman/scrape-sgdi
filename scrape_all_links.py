@@ -174,7 +174,7 @@ if __name__ =="__main__":
    
     # website to be scrape
     main_site = "https://www.sgdi.gov.sg"
-    original_site="https://www.sgdi.gov.sg/ministries/mot"
+    original_site="https://www.sgdi.gov.sg/ministries/pmo"
    
     # calling function
     scrape(original_site)
