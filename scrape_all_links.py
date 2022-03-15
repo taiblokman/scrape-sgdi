@@ -122,6 +122,10 @@ def get_list_of_contacts(site):
     # Extract the people/contact info
     peoples = soup.select("div.agency > div.agency-info > div.section-info > ul > li")
     #readable > section > div.agency > div.agency-info > div.section-info > ul
+
+    # TOOD: Appointment holders
+    #readable > section > div.agency > div.agency-info > div:nth-child(4)
+
     # print(len(peoples))
     for people in peoples:
         title = people.select_one("span.left > div.rank").get_text().replace(",","") 
